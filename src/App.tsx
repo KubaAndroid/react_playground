@@ -3,10 +3,10 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom"
 import { Container } from "react-bootstrap"
 import { Order } from "./pages/Order"
-import { Menu } from "./pages/Menu"
 import { Contact } from "./pages/Contact"
 import {Navbar} from "./components/Navbar";
 import Footer from "./components/Footer";
+import Menu from "./pages/Menu";
 
 function App() {
   return (

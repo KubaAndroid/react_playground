@@ -1,4 +1,31 @@
 {
-  "item": { "name": "test" },
-  "order": {}
+  "menuItems": [ 
+    {
+    "id": 1,
+    "name": "test food",
+    "price": 28.99,
+    "description": "An example food 1"
+    },{
+    "id": 2,
+    "name": "test food 2",
+    "price": 34.99,
+    "description": "An example food 2"
+    }
+  ],
+  "orders": [ 
+    {
+    "id": 1,
+    "userID": 1,
+    "addressId": 1,
+    "date": "12-12-2022 11:04",
+    "menuItems": [1, 2, 3, 1, 1]
+  }
+],
+  "users": [
+    {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe"
+  }
+]
 }
