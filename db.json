@@ -4,12 +4,76 @@
     "id": 1,
     "name": "test food",
     "price": 28.99,
-    "description": "An example food 1"
-    },{
-    "id": 2,
-    "name": "test food 2",
-    "price": 34.99,
-    "description": "An example food 2"
+    "description": "An example food 1",
+    "img_url": "http://",
+    "energy_value_per_100g": 1,
+    "energy_value_per_portion": 3,
+    "fats_per_100g": 1,
+    "fats_per_portion": 1,
+    "carbs_per_100g": 1,
+    "carbs_per_portion": 1,
+    "protein_per_100g": 1,
+    "protein_per_portion": 1
+    },
+    {
+      "id": 2,
+      "name": "test food 2",
+      "price": 34.99,
+      "description": "An example food 2",
+      "img_url": "http://",
+      "energy_value_per_100g": 1,
+      "energy_value_per_portion": 3,
+      "fats_per_100g": 1,
+      "fats_per_portion": 1,
+      "carbs_per_100g": 1,
+      "carbs_per_portion": 1,
+      "protein_per_100g": 1,
+      "protein_per_portion": 1
+    },
+    {
+      "id": 3,
+      "name": "test food 3",
+      "price": 34.99,
+      "description": "An example food 2",
+      "img_url": "http://",
+      "energy_value_per_100g": 1,
+      "energy_value_per_portion": 3,
+      "fats_per_100g": 1,
+      "fats_per_portion": 1,
+      "carbs_per_100g": 1,
+      "carbs_per_portion": 1,
+      "protein_per_100g": 1,
+      "protein_per_portion": 1
+    },
+     {
+      "id": 4,
+      "name": "test food 4",
+      "price": 44.99,
+      "description": "An example food 2",
+      "img_url": "http://",
+      "energy_value_per_100g": 1,
+      "energy_value_per_portion": 3,
+      "fats_per_100g": 1,
+      "fats_per_portion": 1,
+      "carbs_per_100g": 1,
+      "carbs_per_portion": 1,
+      "protein_per_100g": 1,
+      "protein_per_portion": 1
+    },
+     {
+      "id": 5,
+      "name": "test food 5",
+      "price": 37.99,
+      "description": "An example food 2",
+      "img_url": "http://",
+      "energy_value_per_100g": 1,
+      "energy_value_per_portion": 3,
+      "fats_per_100g": 1,
+      "fats_per_portion": 1,
+      "carbs_per_100g": 1,
+      "carbs_per_portion": 1,
+      "protein_per_100g": 1,
+      "protein_per_portion": 1
     }
   ],
   "orders": [ 
@@ -23,9 +87,19 @@
 ],
   "users": [
     {
-    "id": 1,
-    "firstName": "John",
-    "lastName": "Doe"
-  }
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": {
+        "street": "kolorowa",
+        "street_number": "9",
+        "city": "Poznan",
+        "zip_code": "60-999",
+        "phone_number": "555-666-777"
+      }
+    },
+    {
+
+    }
 ]
 }
